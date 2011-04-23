@@ -1,0 +1,4 @@
+Usage:
+
+1. Run source_me.sh, which will install the Python virtual environment and
+   any module dependencies in "env".
