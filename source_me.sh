@@ -9,4 +9,5 @@ fi
 
 source env/bin/activate
 
+pip install pyyaml
 pip install -r requirements.txt
