@@ -1,0 +1,2 @@
+pyyaml
+http://nltk.googlecode.com/files/nltk-2.0.1rc1.tar.gz

@@ -7,4 +7,4 @@ else
   source env/bin/activate
 fi
 
-pip install nltk
+pip install -r requirements.txt
