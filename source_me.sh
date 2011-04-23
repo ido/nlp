@@ -1,10 +1,12 @@
 #!/bin/sh
 
-if [ -f env/bin/activate ]; then
-  source env/bin/activate
-else
+if [ ! -f env/bin/activate ]; then
+  if [ ! -f virtualenv/virtualenv.py ]; then
+    git submodule update --init
+  fi
   python virtualenv/virtualenv.py env
-  source env/bin/activate
 fi
+
+source env/bin/activate
 
 pip install nltk
