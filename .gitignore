@@ -1,4 +1,6 @@
 env
+nltk_data
+data
 *.pyc
 
 *~
