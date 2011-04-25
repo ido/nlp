@@ -1,4 +1,7 @@
 Usage:
 
-1. Run source_me.sh, which will install the Python virtual environment and
-   any module dependencies in "env".
+1. Run source_me.sh, which will install the Python virtual environment,
+   install module dependencies in "env" (e.g. yaml, nltk), and download the
+   NLTK corpora/datasets.
+
+   $ source source_me.sh
